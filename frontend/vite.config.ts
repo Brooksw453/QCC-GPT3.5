@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
     plugins: [react()],
     build: {
-        outDir: "../static",
+        outDir: "static", // Output directory set to 'static' in the root
         emptyOutDir: true,
         sourcemap: true
     },
@@ -16,3 +16,4 @@ export default defineConfig({
         }
     }
 });
+
