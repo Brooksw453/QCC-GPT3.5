@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'WebAppWinchellCode'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E161527F75A64D3EADD2CAE9E1280638 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A9421933313845A3A41E88FD57730B64 }}
