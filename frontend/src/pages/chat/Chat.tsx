@@ -587,7 +587,7 @@ const Chat = () => {
                         {!messages || messages.length < 1 ? (
                             <Stack className={styles.chatEmptyState}>
                                 <img
-                                    src={acid}
+                                    src={QCCLogo}
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
