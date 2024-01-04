@@ -11,6 +11,7 @@ import { isEmpty } from "lodash-es";
 import styles from "./Chat.module.css";
 import acid from "../../assets/acid.svg";
 import CAE from "../../assets/CAE.jfif";
+import QCCLogo from "../../assets/QCCLogo.png";
 
 import {
     ChatMessage,
@@ -587,7 +588,7 @@ const Chat = () => {
                         {!messages || messages.length < 1 ? (
                             <Stack className={styles.chatEmptyState}>
                                 <img
-                                    src={CAE}
+                                    src={QCClogo}
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
