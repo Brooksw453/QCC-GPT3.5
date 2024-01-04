@@ -24,7 +24,7 @@
 .headerTitle {
     font-style: normal;
     font-weight: 600;
-    font-size: 500px;
+    font-size: 24px;
     line-height: 28px;
     display: flex;
     align-items: flex-end;
@@ -32,8 +32,8 @@
 }
 
 .headerIcon {
-    height: 32px;
-    width: 32px;
+    height: 60px;
+    width: 60px;
     margin-left: 36px;
 }
 
