@@ -570,7 +570,7 @@ const Chat = () => {
         <div className={styles.container} role="main">
             {showAuthMessage ? (
                 <Stack className={styles.chatEmptyState}>
-                    <ShieldLockRegular className={styles.chatIcon} style={{color: 'darkorange', height: "200px", width: "200px"}}/>
+                    <ShieldLockRegular className={styles.chatIcon} style={{color: 'darkorange', height: "20px", width: "20px"}}/>
                     <h1 className={styles.chatEmptyStateTitle}>Authentication Not Configured</h1>
                     <h2 className={styles.chatEmptyStateSubtitle}>
                         This app does not have authentication configured. Please add an identity provider by finding your app in the 
@@ -592,8 +592,8 @@ const Chat = () => {
                                     aria-hidden="true"
                                 />
 
-                                <h1 className={styles.chatEmptyStateTitle}> Hello!! </h1>
-                                <h2 className={styles.chatEmptyStateSubtitle}> What do you want to learn? </h2>
+                                <h1 className={styles.chatEmptyStateTitle}> WinchellAI </h1>
+                                <h2 className={styles.chatEmptyStateSubtitle}> How can I help you?  </h2>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px"}} role="log">
