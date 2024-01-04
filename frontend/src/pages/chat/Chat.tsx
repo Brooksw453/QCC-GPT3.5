@@ -570,7 +570,7 @@ const Chat = () => {
         <div className={styles.container} role="main">
             {showAuthMessage ? (
                 <Stack className={styles.chatEmptyState}>
-                    <ShieldLockRegular className={styles.chatIcon} style={{color: 'darkorange', height: "20px", width: "20px"}}/>
+                    <ShieldLockRegular className={styles.chatIcon} style={{color: 'darkorange', height: "300px", width: "300px"}}/>
                     <h1 className={styles.chatEmptyStateTitle}>Authentication Not Configured</h1>
                     <h2 className={styles.chatEmptyStateSubtitle}>
                         This app does not have authentication configured. Please add an identity provider by finding your app in the 
