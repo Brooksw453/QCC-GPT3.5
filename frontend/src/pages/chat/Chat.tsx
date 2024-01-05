@@ -593,8 +593,8 @@ const Chat = () => {
                                     aria-hidden="true"
                                 />
 
-                                <h1 className={styles.chatEmptyStateTitle}> WinchellAI </h1>
-                                <h2 className={styles.chatEmptyStateSubtitle}> How can I help you?  </h2>
+                                <h1 className={styles.chatEmptyStateTitle}> QCC AI Assistant GPT 3.5 Turbo </h1>
+                                <h2 className={styles.chatEmptyStateSubtitle}> What can I help you learn today? </h2>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px"}} role="log">
