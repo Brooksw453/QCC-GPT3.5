@@ -75,7 +75,7 @@ const Layout = () => {
                 >
                     <Stack horizontal verticalAlign="center">
                         <img
-                            src={Q}
+                            src={Azure}
                             className={styles.headerIcon}
                             aria-hidden="true"
                         />
