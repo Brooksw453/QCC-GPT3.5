@@ -9,7 +9,7 @@ import uuid from 'react-uuid';
 import { isEmpty } from "lodash-es";
 
 import styles from "./Chat.module.css";
-import acid from "../../assets/acid.svg";
+import ESDesigns from "../../assets/ESDesigns.png";
 import CAE from "../../assets/CAE.jfif";
 import QCCLogo from "../../assets/QCCLogo.png";
 
@@ -588,12 +588,12 @@ const Chat = () => {
                         {!messages || messages.length < 1 ? (
                             <Stack className={styles.chatEmptyState}>
                                 <img
-                                    src={QCCLogo}
+                                    src={ESDesigns}
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
 
-                                <h1 className={styles.chatEmptyStateTitle}> QCC AI Assistant GPT 3.5 Turbo </h1>
+                                <h1 className={styles.chatEmptyStateTitle}> ESDesigns GPT 3.5 Turbo </h1>
                                 <h2 className={styles.chatEmptyStateSubtitle}> What can I help you learn today? </h2>
                             </Stack>
                         ) : (
