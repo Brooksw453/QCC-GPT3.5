@@ -1,6 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
 import styles from "./Layout.module.css";
-import Q from "../../assets/Q.jpg";
 import ESD from "../../assets/ESD.png
 import { CopyRegular, ShareRegular } from "@fluentui/react-icons";
 import { CommandBarButton, Dialog, Stack, TextField, ICommandBarStyles, IButtonStyles, DefaultButton  } from "@fluentui/react";
